@@ -9,7 +9,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -69,20 +68,6 @@ public class DetalleControlador {
         detalleServicio.guardarDetalle(detalleExistente);
         return new ResponseEntity<>("Detalle actualizado correctamente", HttpStatus.OK);
     }
-//    @PutMapping("/actualizarDetalle/{idDetalle}")
-//    public ResponseEntity<Detalle> actualizarDetalle(@PathVariable Long idDetalle, @RequestBody Detalle detalleDatosNuevos) {
-//        Detalle detalleExistente = detalleServicio.buscarDetalle(idDetalle);
-//        if (detalleExistente == null) {
-//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-//        }
-//        detalleExistente.setFactura(detalleDatosNuevos.getFactura());
-//        detalleExistente.setProducto(detalleDatosNuevos.getProducto());
-//        detalleExistente.setCantidad(detalleDatosNuevos.getCantidad());
-//        detalleExistente.setPrecio(detalleDatosNuevos.getPrecio());
-//        
-//        detalleServicio.guardarDetalle(detalleExistente);
-//        return new ResponseEntity<>(detalleExistente,HttpStatus.OK);
-//
-//    }
+
 
 }

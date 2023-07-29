@@ -3,7 +3,6 @@ package com.aseofresh.servicio;
 
 import com.aseofresh.dao.DetalleDAO;
 import com.aseofresh.domain.Detalle;
-import com.aseofresh.domain.Factura;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

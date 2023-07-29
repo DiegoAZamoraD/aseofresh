@@ -3,7 +3,6 @@ package com.aseofresh.servicio;
 
 import com.aseofresh.dao.FacturaDAO;
 import com.aseofresh.domain.Factura;
-import com.aseofresh.domain.Producto;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

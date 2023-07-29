@@ -1,6 +1,5 @@
 package com.aseofresh.controller;
 
-import com.aseofresh.domain.Cliente;
 import com.aseofresh.domain.Producto;
 import com.aseofresh.servicio.ProductoServicio;
 import java.util.List;
